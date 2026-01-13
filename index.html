@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Primary Meta Tags -->
+  <title>Jerry Weds Krithika | Wedding Invitation</title>
+  <meta name="title" content="Jerry Weds Krithika | Wedding Invitation">
+  <meta name="description"
+    content="Join us in celebrating the wedding of Jerry & Krithika. Save the date – 12th December 2026, Chennai.">
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta property="og:title" content="Jerry Weds Krithika | Wedding Invitation">
+  <meta property="og:description"
+    content="With the blessings of our families, we invite you to celebrate the wedding of Jerry & Krithika on 12th December 2026 in Chennai.">
+  <meta property="og:image" content="https://yourdomain.com/assets/images/img1.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://yourdomain.com/">
+  <meta name="twitter:title" content="Jerry Weds Krithika | Wedding Invitation">
+  <meta name="twitter:description"
+    content="Save the date! Jerry & Krithika are getting married on 12th December 2026, Chennai.">
+  <meta name="twitter:image" content="https://yourdomain.com/assets/images/img1.jpg">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+  <!-- Moonlight -->
+  <div class="moonlight"></div>
+  <div class="moon"></div>
+
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="assets/audio/music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Music Toggle -->
+  <button id="music-toggle">🔊</button>
+
+  <!-- Theme Switcher -->
+  <div class="theme-switcher">
+    <button data-theme="moon">🌙</button>
+    <button data-theme="sunset">🌅</button>
+    <button data-theme="garden">🌿</button>
+    <button data-theme="royal">🕯</button>
+  </div>
+
+
+  <!-- HERO SECTION -->
+  <section class="section hero">
+    <canvas id="sakura"></canvas>
+
+    <div class="content">
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <span class="wheel"></span>
+        </div>
+        <span class="scroll-text">Scroll</span>
+      </div>
+
+      <h1>
+        <span class="name groom">Jerry</span>
+        <span class="weds">weds</span>
+        <span class="name bride">Krithika</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- DETAILS SECTION -->
+  <!-- <section class="section details">
+    <div class="details-content reveal">
+      <h2>Save the Date</h2>
+      <p class="date">12th December 2026</p>
+      <p class="venue">
+        Sri Lakshmi Marriage Hall<br />
+        Chennai
+      </p>
+    </div>
+  </section> -->
+
+  <!-- FAMILIES SECTION -->
+  <section class="section families">
+    <div class="families-content reveal">
+      <div class="families-layout">
+
+        <!-- LEFT: Image -->
+        <div class="couple-photo">
+          <img src="assets/images/Couple_under_sakura.avif" alt="Couple under sakura">
+        </div>
+
+        <!-- RIGHT: Text -->
+        <div class="families-text">
+          <h2>With the Blessings of Our Families</h2>
+
+          <div class="family-grid">
+            <div class="family">
+              <h3>Groom’s Family</h3>
+              <p>
+                Mr. & Mrs. Jerry’s Father<br />
+                and Family
+              </p>
+            </div>
+
+            <div class="divider">❦</div>
+
+            <div class="family">
+              <h3>Bride’s Family</h3>
+              <p>
+                Mr. & Mrs. Krithika’s Father<br />
+                and Family
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHEN & WHERE SECTION -->
+  <section class="section when-where">
+    <div class="when-where-content reveal">
+
+      <h2>When & Where</h2>
+
+      <div class="event-list">
+        <div class="event">
+          <h3>Wedding Ceremony</h3>
+          <p>12th December 2026 • 6:00 PM</p>
+          <p>Sri Lakshmi Marriage Hall, Chennai</p>
+        </div>
+
+        <div class="event">
+          <h3>Reception</h3>
+          <p>8:00 PM Onwards</p>
+          <p>Grand Ballroom, Same Venue</p>
+        </div>
+      </div>
+
+      <div class="couple-photo-wed">
+        <img src="assets/images/Couple_removebg.png" alt="">
+      </div>
+      <!-- COMPASS / MAP TOGGLE -->
+      <div class="map-toggle">
+
+        <!-- Compass View -->
+        <div class="compass-view active">
+          <div class="compass">
+            <img src="assets/images/compass.svg" alt="Compass direction" class="compass-img" />
+          </div>
+          <p class="compass-text">Tap to find the way</p>
+        </div>
+
+        <!-- Map View -->
+        <div class="map-view">
+          <button class="map-close">✕</button>
+
+          <iframe src="https://www.google.com/maps?q=Sri%20Lakshmi%20Marriage%20Hall%20Chennai&output=embed"
+            loading="lazy">
+          </iframe>
+        </div>
+
+        <!-- Butterflies -->
+        <div class="butterflies"></div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- WEDDING EVENTS -->
+  <section class="section events">
+    <div class="events-content reveal">
+      <h2>Wedding Events</h2>
+
+      <div class="event-grid">
+        <div class="event">
+          <h3>Welcome Party</h3>
+          <p>09:00 AM – 01:00 PM | Poolside</p>
+        </div>
+
+        <div class="event">
+          <h3>Opera Night</h3>
+          <p>07:00 PM Onwards | Grand Ballroom</p>
+        </div>
+
+        <div class="event">
+          <h3>Ceremony</h3>
+          <p>06:00 PM | Baraat & Pheras</p>
+        </div>
+
+        <div class="event">
+          <h3>Cocktail</h3>
+          <p>08:00 PM Onwards | Grand Ballroom</p>
+        </div>
+
+        <div class="event">
+          <h3>Reception</h3>
+          <p>08:00 PM Onwards | Grand Ballroom</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section class="section story">
+    <div class="story-content reveal">
+      <h2>Our Story</h2>
+      <p>
+        “Once in a while, right in the middle of an ordinary life,
+        love gives us a fairy tale.”
+      </p>
+      <p>
+        It started with a simple hello and grew into something
+        beautiful — laughter, memories and lifelong companionship.
+      </p>
+    </div>
+  </section>
+
+  <!-- MOMENTS / GALLERY -->
+  <section class="section gallery">
+    <div class="gallery-content reveal">
+      <h2>Moments</h2>
+
+      <div class="photos-grid">
+        <img src="assets/images/img1.jpg" alt="Couple photo 1">
+        <img src="assets/images/img2.jpg" alt="Couple photo 2">
+        <img src="assets/images/img3.jpg" alt="Couple photo 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- THINGS TO KNOW -->
+  <section class="section info">
+    <div class="info-layout reveal">
+      <div class="music-box-container">
+        <canvas id="music-box-canvas"></canvas>
+      </div>
+
+      <div class="info-content">
+        <h2>Things to Know</h2>
+
+        <div class="info-grid">
+          <!-- Instagram Card -->
+          <div class="info-card">
+            <div class="frame-container">
+              <img src="assets/images/Sakura_Love_Frame.webp" alt="Frame" class="frame-img">
+              <div class="icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </div>
+            </div>
+            <p>Tag your photos with <strong>#JerryKrithika2026</strong> and share your favorite moments from the
+              celebration.</p>
+          </div>
+
+          <!-- Parking Card -->
+          <div class="info-card">
+            <div class="frame-container">
+              <img src="assets/images/Sakura_Love_Frame.webp" alt="Frame" class="frame-img">
+              <div class="icon-wrapper">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z" />
+                </svg>
+              </div>
+            </div>
+            <p>Valet parking services include safe and convenient parking facilities for all our invited guests at the
+              venue.</p>
+          </div>
+
+          <!-- Weather Card -->
+          <div class="info-card">
+            <div class="frame-container">
+              <img src="assets/images/Sakura_Love_Frame.webp" alt="Frame" class="frame-img">
+              <div class="icon-wrapper">
+                <svg viewBox="0 0 128 128" fill="currentColor">
+                  <path
+                    d="m89.738 17.398 3.898.84-2.67 12.39-3.897-.84zM69.905 18.72l3.86 12.066L69.968 32l-3.86-12.066zM49.597 31.053l9.345 8.512-2.685 2.948L46.912 34zM109.043 83.388l9.344 8.516-2.686 2.948-9.344-8.516zM115.669 67.396l12.33 2.684-.847 3.896-12.331-2.685zM125.461 46.352l1.222 3.795-12.018 3.868-1.221-3.795zM111.463 27.07l2.959 2.672-8.477 9.39-2.959-2.671z" />
+                  <g>
+                    <path
+                      d="m94.486 89.054-1.66-3.625c8.743-4.007 14.393-12.83 14.393-22.479 0-13.613-11.025-24.689-24.576-24.689-7.85 0-15.042 3.637-19.736 9.977l-3.204-2.372c5.373-7.259 13.948-11.592 22.94-11.592 15.75 0 28.563 12.864 28.563 28.675-.001 11.202-6.562 21.45-16.72 26.105z" />
+                  </g>
+                  <g>
+                    <path
+                      d="M94.466 110.599H18.497C8.297 110.599 0 102.268 0 92.026c0-8.853 6.187-16.372 14.651-18.163.79-15.372 13.498-27.636 29.005-27.636 13.713 0 25.557 9.76 28.391 23.031a20.04 20.04 0 0 1 3.376-.292c11.263 0 20.426 9.2 20.426 20.508 0 .154-.002.309-.006.466 4.646 1.07 8.047 5.207 8.049 10.187 0 5.433-4.141 9.911-9.42 10.424l-.006.048zm-3.214-4.161 1.667.145c.181.016.36.03.542.03 3.554 0 6.445-2.909 6.445-6.485-.002-3.522-2.745-6.363-6.246-6.468l-2.174-.064.254-2.159c.082-.705.122-1.347.122-1.962 0-9.109-7.374-16.521-16.438-16.521-1.462 0-2.955.211-4.439.628l-2.205.618-.31-2.269C66.78 59.55 56.112 50.214 43.657 50.214c-13.817 0-25.058 11.29-25.058 25.167l.005 1.961-1.767.202c-7.326.838-12.85 7.064-12.85 14.482 0 8.042 6.509 14.586 14.51 14.586h72.709l.046-.174z" />
+                  </g>
+                  <g>
+                    <path
+                      d="m27.898 76.656-3.987-.014c.042-11.621 9.494-21.077 21.071-21.077v3.987c-9.386.001-17.05 7.674-17.084 17.104z" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <p>We expect a pleasant evening with moderate temperatures, perfect for our outdoor celebrations and
+              festivities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / COUNTDOWN SECTION -->
+  <footer class="footer section">
+    <canvas id="lanterns-canvas"></canvas>
+    <div class="footer-content reveal">
+
+      <h2 class="footer-title">The countdown begins</h2>
+
+      <!-- Countdown display (static for now) -->
+      <div class="footer-countdown">
+        <div class="countdown-item">
+          <span id="cd-days">00</span>
+          <small>Days</small>
+        </div>
+
+        <div class="countdown-item">
+          <span id="cd-hours">00</span>
+          <small>Hours</small>
+        </div>
+
+        <div class="countdown-item">
+          <span id="cd-minutes">00</span>
+          <small>Minutes</small>
+        </div>
+
+        <div class="countdown-item">
+          <span id="cd-seconds">00</span>
+          <small>Seconds</small>
+        </div>
+      </div>
+
+
+
+      <p class="footer-message">
+        Our families are excited that you are able to join us in celebrating
+        what we hope will be one of the happiest days of our lives.
+      </p>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h3>Links</h3>
+          <a href="#">Venue location</a>
+          <a href="#">Instagram</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Navigation</h3>
+          <a href="#">The invite</a>
+          <a href="#">Bride and Groom</a>
+          <a href="#">Things to know</a>
+        </div>
+      </div>
+
+      <p class="footer-copy">© TheStoryArc 2026</p>
+
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="" alt="Expanded moment">
+  </div>
+
+  <!-- SVG BUTTERFLY TEMPLATE -->
+  <svg width="0" height="0" style="position:absolute">
+    <symbol id="butterfly-svg" viewBox="0 0 64 64">
+      <!-- Left wing -->
+      <path class="wing left" d="M32 32 C20 10, 0 20, 16 36 C0 52, 20 54, 32 38Z" fill="currentColor" />
+      <!-- Right wing -->
+      <path class="wing right" d="M32 32 C44 10, 64 20, 48 36 C64 52, 44 54, 32 38Z" fill="currentColor" />
+    </symbol>
+  </svg>
+
+
+  <div class="cursor-glow"></div>
+
+
+
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+
+</html>
